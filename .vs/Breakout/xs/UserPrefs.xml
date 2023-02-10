@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{1B91EFDE-9B25-2316-2D71-6E972A83EF85}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TimedDestroy.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PaddleMovement.cs" Line="16" Column="40" />
+      <File FileName="Assets/Scripts/BallMovement.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/GM.cs" Line="32" Column="17" />
+      <File FileName="Assets/Scripts/BrickManager.cs" Line="15" Column="27" />
+      <File FileName="Assets/Scripts/DeathZone.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/TimedDestroy.cs" Line="7" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Breakout" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="TimedDestroy.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1c8a801f-b118-467e-ac86-0e9df29e44ef" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
