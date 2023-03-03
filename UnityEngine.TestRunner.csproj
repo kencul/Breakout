@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B92EAB45-4F62-DAB3-3D2F-72AFA91F5CD7}</ProjectGuid>
+    <ProjectGuid>{C03DC01D-3AA7-7267-856F-75488A14EFCE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.17</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
     <UnityVersion>2021.3.9f1</UnityVersion>
@@ -163,8 +163,8 @@
     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/IPostBuildCleanup.cs" />
     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/AssemblyProvider/ScriptingRuntimeProxy.cs" />
     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/TestRunner/RemoteHelpers/PlayerConnectionMessageIds.cs" />
-    <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs" />
     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/AssemblyProvider/AssemblyLoadProxy.cs" />
+    <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableTestMethodCommand.cs" />
     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/PrebuildSceneSetupAttribute.cs" />
     <Compile Include="Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs" />
   </ItemGroup>

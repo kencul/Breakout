@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4AD00514-78FB-E9DA-3338-95783A8B3208}</ProjectGuid>
+    <ProjectGuid>{1DFB2F0E-D63E-2E3E-CFA2-BC7F6E6E6819}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualScripting.State</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.17</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
     <UnityVersion>2021.3.9f1</UnityVersion>
@@ -56,40 +56,40 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateUnit.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/IStateTransition.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateEventHooks.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/IStateDebugData.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateExitReason.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/FlowState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/Properties/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/Units/SetStateGraph.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/State.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/Units/StateGraphContainerType.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/NesterStateTransition.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/OnExitState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateEnterReason.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/IStateTransitionDebugData.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateGraphAsset.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/INesterStateTransition.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/OnEnterState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/INesterState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/Framework/Graph/HasStateGraph.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/FlowStateTransition.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/NesterState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/Units/GetStateGraph.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/IState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/AnyState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateMachine.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/TriggerStateTransition.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateGraphData.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/SuperState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateGraph.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/Units/GetStateGraphs.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/StateTransition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateUnit.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/IStateTransition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateEventHooks.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/IStateDebugData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateExitReason.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/FlowState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/Properties/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/Units/SetStateGraph.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/State.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/Units/StateGraphContainerType.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/NesterStateTransition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/OnExitState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateEnterReason.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/IStateTransitionDebugData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateGraphAsset.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/INesterStateTransition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/OnEnterState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/INesterState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/Framework/Graph/HasStateGraph.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/FlowStateTransition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/NesterState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/Units/GetStateGraph.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/IState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/AnyState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateMachine.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/TriggerStateTransition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateGraphData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/SuperState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateGraph.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/Units/GetStateGraphs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/StateTransition.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef" />
+    <None Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -341,35 +341,32 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -740,19 +737,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{802A5799-A7DE-0993-F5AA-C64060A7AC17}</Project>
+      <Project>{26D9C0AB-6133-D276-7554-7D776CB131A0}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{E6E1E01C-628E-377F-293F-3D44FC5278CB}</Project>
+      <Project>{C2F0C442-1018-3B87-FE42-AA3F78E9391D}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{0077C231-C179-DAE9-A881-397A1F2B31D1}</Project>
+      <Project>{14CB72F0-5191-CB1F-5C8D-3859CB537C91}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{2678AE99-3390-B47F-6FB5-1703A5822C15}</Project>
+      <Project>{237791F2-D835-E309-6D8F-07541AFA18A3}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

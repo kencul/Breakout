@@ -18,12 +18,14 @@ public class GM : MonoBehaviour
     [SerializeField] GameObject DeathParticles;
     public static GM instance = null;
 
+
     GameObject ClonePaddle;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        //singleton instance
         if (instance != null && instance != this)
             Destroy(this);
         else
@@ -43,15 +45,19 @@ public class GM : MonoBehaviour
         if (bricks < 1)
         {
             YouWon.SetActive(true);
+            SoundManager.instance.PlaySound("Win");
+            SoundManager.instance.isPlaying = false;
             Time.timeScale = 0.25f;
-            Invoke("Reset", resetDelay);
+            Invoke(nameof(Reset), resetDelay);
         }
 
         if (lives < 1)
         {
             GameOver.SetActive(true);
+            SoundManager.instance.PlaySound("GameOver");
+            SoundManager.instance.isPlaying = false;
             Time.timeScale = 0.25f;
-            Invoke("Reset", resetDelay);
+            Invoke(nameof(Reset), resetDelay);
         }
     }
 
@@ -63,11 +69,12 @@ public class GM : MonoBehaviour
 
     public void LoseLife()
     {
+        SoundManager.instance.PlaySound("LoseLife");
         lives--;
         livesText.text = "Lives: " + lives;
         Instantiate(DeathParticles, ClonePaddle.transform.position, Quaternion.identity);
         Destroy(ClonePaddle);
-        Invoke("SetupPaddle", resetDelay);
+        Invoke(nameof(SetupPaddle), resetDelay);
         CheckGameOver();
     }
 

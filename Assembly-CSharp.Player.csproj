@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5C1A7575-F09D-F1BB-69F8-57B739D04308}</ProjectGuid>
+    <ProjectGuid>{AD31DEF9-1E28-C87E-01CB-163F63D236E3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.17</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
     <UnityVersion>2021.3.9f1</UnityVersion>
@@ -56,20 +56,26 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/PaddleMovement.cs" />
-    <Compile Include="Assets/Scripts/BallMovement.cs" />
     <Compile Include="Assets/Scripts/GM.cs" />
+    <Compile Include="Assets/Scripts/IntermittenSounds.cs" />
+    <Compile Include="Assets/notes.cs" />
+    <Compile Include="Assets/Scripts/BallMovement.cs" />
+    <Compile Include="Assets/Scripts/SoundManager.cs" />
+    <Compile Include="Assets/Scripts/PaddleMovement.cs" />
+    <Compile Include="Assets/Scripts/TimedDestroy.cs" />
     <Compile Include="Assets/Scripts/BrickManager.cs" />
     <Compile Include="Assets/Scripts/DeathZone.cs" />
-    <Compile Include="Assets/Scripts/TimedDestroy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/StreamingAssets/desc.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/WwiseSettings.xml" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Wwise/Version.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -285,11 +291,8 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -659,40 +662,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.Player.csproj">
+      <Project>{5FEB55CA-0711-36A5-4259-9D6448DC5C7A}</Project>
+      <Name>AK.Wwise.Unity.API.WwiseTypes.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ak.Wwise.Api.WAAPI.Player.csproj">
+      <Project>{DEAEB606-E972-8330-6D36-B7968108786D}</Project>
+      <Name>Ak.Wwise.Api.WAAPI.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{4986CDAB-847B-C0DA-AEE8-A6B4EB28BF18}</Project>
+      <Project>{5871517B-FDD6-F05A-C278-6DC97D0FBFCE}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{A007F901-4155-B789-31DD-ADA48BCC6F48}</Project>
+      <Project>{315B4120-BB02-260A-BAAE-B040C6B37DA7}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.Player.csproj">
+      <Project>{DED4E08E-A5DE-72EC-3682-F2AA60F22BCA}</Project>
+      <Name>AK.Wwise.Unity.MonoBehaviour.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{1FBAC620-1105-1561-B0CE-EFD53DBFA0DB}</Project>
+      <Project>{4FA72B9C-254B-897B-B2E0-9106F51B8EA5}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{5AAAEA27-B985-AE7B-B82B-4F0AE70C3E94}</Project>
+      <Project>{FFB4AD6F-139B-4D9A-A765-F816A1A90F5F}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{026D4D27-BDA9-08FE-2099-3B193B513FB6}</Project>
-      <Name>Unity.Services.Core.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{19DA66E4-9D30-9CE5-0EB6-425DC661283D}</Project>
+      <Project>{40AC2275-C46B-9FF5-2F5C-264E90549235}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{BCCA023F-465E-64BC-F3AA-DAA596986FBD}</Project>
-      <Name>Unity.Services.Core.Analytics.Player</Name>
+    <ProjectReference Include="AK.Wwise.Unity.Timeline.Player.csproj">
+      <Project>{9E49A7AB-BE32-9627-86C3-92053D93D8BA}</Project>
+      <Name>AK.Wwise.Unity.Timeline.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{4A67CE1B-CD1C-6D3C-7A34-ED06691C1023}</Project>
-      <Name>Unity.Services.Core.Environments.Player</Name>
+    <ProjectReference Include="AK.Wwise.Unity.API.Player.csproj">
+      <Project>{4B03DDAA-F209-61E7-D451-A0CD2DC1F0FD}</Project>
+      <Name>AK.Wwise.Unity.API.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{3D736776-3689-9BFC-C3A6-617E4BEDCB7A}</Project>
+      <Project>{7141BE61-7D4F-6856-0B32-6D18A1FD0635}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>

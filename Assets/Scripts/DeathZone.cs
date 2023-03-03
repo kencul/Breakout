@@ -6,6 +6,7 @@ public class DeathZone : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+
         GM.instance.LoseLife();
     }
 }

@@ -19,10 +19,25 @@ public class BallMovement : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && inPlay == false)
         {
+            SoundManager.instance.PlaySound("Start");
             transform.parent = null;
             inPlay = true;
             rb.isKinematic = false;
             rb.AddForce(new Vector3(initVel, initVel, 0f));
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "Wall":
+            case "Paddle":
+            case "Brick":
+                SoundManager.instance.PlaySound(collision.gameObject.tag);
+                break;
+            default:
+                break;
         }
     }
 }

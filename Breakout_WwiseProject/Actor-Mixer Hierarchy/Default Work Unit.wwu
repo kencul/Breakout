@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6B1C74A8-DF4E-4AD9-8CF5-1560E867F1A6}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{6B1C74A8-DF4E-4AD9-8CF5-1560E867F1A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="RandomSealZOne" ID="{E4ECEC69-74FA-4704-934F-1A8988727ED8}" ShortID="527884286">
+					<PropertyList>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8221591-7237-4710-AAE0-768362E922A7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86DE3C37-01C0-439B-83BF-B6FD7BE0C589}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<BlendContainer Name="BlendedSeals" ID="{C88AE9A0-1C0F-4EA9-8FFF-071444257067}" ShortID="802249872">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8221591-7237-4710-AAE0-768362E922A7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86DE3C37-01C0-439B-83BF-B6FD7BE0C589}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="SequenceContain" ID="{57EADADE-122C-457F-9B97-B94061801888}" ShortID="614439316">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F48D89FF-D91B-42EE-A442-56B3407EFBBA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8221591-7237-4710-AAE0-768362E922A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86DE3C37-01C0-439B-83BF-B6FD7BE0C589}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ANMLAqua_Sea Mammals Seal Walrus Sea Lion_PSE_GEN_BFBA9F6C" ID="{37D30594-1EF2-4D4D-A3E2-2FEADDB5BA07}" ShortID="602851526">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8221591-7237-4710-AAE0-768362E922A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86DE3C37-01C0-439B-83BF-B6FD7BE0C589}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANMLAqua_Sea Mammals Seal Walrus Sea Lion_PSE_GEN_BFBA9F6C" ID="{BCC38357-2655-4979-AC7C-6351BC913555}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.063072463768116"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0473043478260871"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.488811594202898"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.93159420289855"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANMLAqua_Sea Mammals Seal Walrus Sea Lion_PSE_GEN_BFBA9F6C.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042370971"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANMLAqua_Sea Mammals Seal Walrus Sea Lion_PSE_GEN_BFBA9F6C" ID="{BCC38357-2655-4979-AC7C-6351BC913555}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Seals_02-SB-Collected-Animals" ID="{7B12EFB0-AD71-4F86-9771-03B705086BB0}" ShortID="879142451">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8221591-7237-4710-AAE0-768362E922A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86DE3C37-01C0-439B-83BF-B6FD7BE0C589}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Seals_02-SB-Collected-Animals" ID="{1E025BDA-A158-4BF9-99CD-C4810250D5EE}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.239921529366896"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.235025171624714"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.391708619374523"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Seals_02-SB-Collected-Animals.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132424979"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Seals_02-SB-Collected-Animals" ID="{1E025BDA-A158-4BF9-99CD-C4810250D5EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Seals_03-SB-Collected-Animals" ID="{755A3E2C-914F-461C-8368-BBB77158E59A}" ShortID="875169900">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8221591-7237-4710-AAE0-768362E922A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86DE3C37-01C0-439B-83BF-B6FD7BE0C589}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Seals_03-SB-Collected-Animals" ID="{3626BF0C-7724-4248-9B27-85B09E1D7713}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.12574885583524"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0628744279176199"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.01797254004577"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.87725638825324"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Seals_03-SB-Collected-Animals.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1058421555"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Seals_03-SB-Collected-Animals" ID="{3626BF0C-7724-4248-9B27-85B09E1D7713}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="OceanBeach_BW_53689" ID="{AE792F05-358D-4FB5-AED2-910B05E363CF}" ShortID="468158010">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8221591-7237-4710-AAE0-768362E922A7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86DE3C37-01C0-439B-83BF-B6FD7BE0C589}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OceanBeach_BW_53689" ID="{FC2E20E0-5CC6-4536-BA95-E7A76EE65B6D}">
+									<Language>SFX</Language>
+									<AudioFile>OceanBeach_BW.53689.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="752596799"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OceanBeach_BW_53689" ID="{FC2E20E0-5CC6-4536-BA95-E7A76EE65B6D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
